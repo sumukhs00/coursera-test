@@ -1,0 +1,98 @@
+body {
+  font-size: 16px;
+}
+h1,h3{
+  color: black;
+}
+
+/**HEader**/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+text-align: center; 
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  ine-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: blue;
+  text-align: center;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#nav-list a:hover {
+  background: #white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  }
+
+  #mainheading{
+    text-align: center;
+  }
+  #topic{
+    text-align: center;
+    border: 2px solid blue;
+    background: grey;
+  }
+  span{
+    font-size: 1.2em;
+    color: black;
+  }
+  section{
+    margin-bottom:10px;
+  }
